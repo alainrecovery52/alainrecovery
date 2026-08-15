@@ -2,31 +2,132 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Al Ain Recovery | 24/7 Vehicle Recovery in Al Ain, UAE</title>
+  <title>Al Ain Recovery | 24/7 Car Recovery & Roadside Assistance UAE</title>
 
-  <meta name="description"
-    content="24/7 vehicle recovery, car recovery, flatbed transport and roadside assistance in Al Ain, UAE. Call 0551525352 for fast recovery support.">
+  <meta
+    name="description"
+    content="24/7 car recovery and roadside assistance in Al Ain, UAE. Fast vehicle recovery, flatbed transport, battery assistance and emergency roadside support. Call 0551525352."
+  >
+
+  <meta
+    name="keywords"
+    content="car recovery Al Ain, vehicle recovery Al Ain, car towing Al Ain, roadside assistance Al Ain, recovery truck Al Ain, flatbed recovery UAE, emergency car recovery UAE"
+  >
 
   <meta name="robots" content="index, follow">
-  <meta name="theme-color" content="#0B6873">
-  <link rel="canonical" href="https://alainrecoveryuae.com/">
+  <meta name="author" content="Al Ain Recovery">
+
+  <link
+    rel="canonical"
+    href="https://alainrecoveryuae.com/"
+  >
+
+  <meta name="theme-color" content="#0B5C78">
+
+  <!-- Open Graph -->
+  <meta
+    property="og:title"
+    content="Al Ain Recovery | 24/7 Vehicle Recovery in Al Ain"
+  >
+
+  <meta
+    property="og:description"
+    content="Fast 24/7 vehicle recovery and roadside assistance in Al Ain, UAE."
+  >
+
+  <meta
+    property="og:type"
+    content="website"
+  >
+
+  <meta
+    property="og:url"
+    content="https://alainrecoveryuae.com/"
+  >
+
+  <meta
+    property="og:image"
+    content="https://www.isuzu-uae.ae/wp-content/uploads/2024/03/flatbed.jpg"
+  >
+
+  <!-- Sitemap -->
+  <link
+    rel="sitemap"
+    type="application/xml"
+    href="https://alainrecoveryuae.com/sitemap.xml"
+  >
+
+  <!-- Local Business SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AutomotiveBusiness",
+    "name": "Al Ain Recovery",
+    "url": "https://alainrecoveryuae.com/",
+    "telephone": "+971551525352",
+    "description": "24/7 vehicle recovery and roadside assistance in Al Ain, UAE.",
+    "areaServed": [
+      "Al Ain",
+      "Al Jimi",
+      "Al Muwaiji",
+      "Al Mutaredh",
+      "Al Towayya",
+      "Al Foah",
+      "Al Ain Industrial Area",
+      "Abu Dhabi",
+      "United Arab Emirates"
+    ],
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Al Ain",
+      "addressRegion": "Abu Dhabi",
+      "addressCountry": "AE"
+    },
+    "openingHours": "Mo-Su 00:00-23:59",
+    "serviceType": [
+      "Car Recovery",
+      "Vehicle Recovery",
+      "Roadside Assistance",
+      "Flatbed Recovery",
+      "Battery Assistance",
+      "Vehicle Transport"
+    ]
+  }
+  </script>
 
   <style>
+
     :root {
-      --teal: #0B6873;
-      --teal-dark: #064B54;
-      --aqua: #19A5A5;
-      --cream: #F7F5EF;
-      --soft: #F2F8F8;
-      --white: #FFFFFF;
-      --text: #18353B;
-      --muted: #667A80;
-      --border: #DCE8E9;
-      --green: #16A66A;
-      --shadow: 0 20px 55px rgba(6, 75, 84, 0.13);
+      --primary: #0b5c78;
+      --primary-dark: #073c52;
+      --secondary: #159a9c;
+      --accent: #22a6a8;
+
+      --soft: #eef8fa;
+      --soft-blue: #f4fafc;
+
+      --white: #ffffff;
+      --black: #10232d;
+
+      --text: #203945;
+      --muted: #687d87;
+
+      --border: #dce9ee;
+
+      --green: #159f69;
+
+      --shadow:
+        0 20px 60px rgba(7, 60, 82, 0.12);
+
+      --shadow-small:
+        0 10px 30px rgba(7, 60, 82, 0.10);
+
+      --radius: 22px;
     }
+
 
     * {
       margin: 0;
@@ -34,26 +135,37 @@
       box-sizing: border-box;
     }
 
+
     html {
       scroll-behavior: smooth;
     }
 
+
     body {
-      font-family: Arial, Helvetica, sans-serif;
+      font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
       color: var(--text);
+
       background: var(--white);
-      line-height: 1.6;
+
+      line-height: 1.65;
     }
+
 
     a {
       text-decoration: none;
       color: inherit;
     }
 
+
     img {
       max-width: 100%;
       display: block;
     }
+
 
     .container {
       width: 92%;
@@ -61,1544 +173,2447 @@
       margin: auto;
     }
 
-    /* TOP BAR */
 
-    .top-bar {
-      background: var(--teal-dark);
+    /* =========================
+       TOP BAR
+    ========================= */
+
+    .topbar {
+      background: var(--primary-dark);
       color: white;
-      padding: 9px 0;
+      padding: 10px 0;
       font-size: 13px;
     }
 
-    .top-bar .container {
+
+    .topbar-inner {
       display: flex;
+      align-items: center;
       justify-content: space-between;
       gap: 20px;
     }
 
-    /* HEADER */
+
+    .topbar strong {
+      font-weight: 800;
+    }
+
+
+    .topbar-right {
+      opacity: 0.82;
+    }
+
+
+    /* =========================
+       HEADER
+    ========================= */
 
     header {
       position: sticky;
       top: 0;
-      z-index: 1000;
-      background: rgba(255,255,255,0.97);
+      z-index: 999;
+
+      background: rgba(255, 255, 255, 0.97);
+
       border-bottom: 1px solid var(--border);
+
       backdrop-filter: blur(12px);
     }
 
+
     nav {
-      min-height: 76px;
+      min-height: 78px;
+
       display: flex;
       align-items: center;
       justify-content: space-between;
+
+      gap: 25px;
     }
+
 
     .brand {
       display: flex;
       align-items: center;
       gap: 12px;
+
       font-weight: 900;
-      color: var(--teal-dark);
+
+      color: var(--primary-dark);
     }
 
-    .brand-logo {
-      width: 47px;
-      height: 47px;
+
+    .brand-icon {
+      width: 48px;
+      height: 48px;
+
       border-radius: 14px;
-      background: var(--teal);
+
+      background:
+        linear-gradient(
+          135deg,
+          var(--primary),
+          var(--secondary)
+        );
+
       color: white;
+
       display: grid;
       place-items: center;
-      font-size: 17px;
+
+      font-size: 16px;
       font-weight: 900;
+
+      box-shadow:
+        0 10px 22px rgba(11, 92, 120, 0.18);
     }
+
 
     .brand-name {
-      font-size: 17px;
+      font-size: 18px;
+      line-height: 1.1;
     }
 
-    .brand-small {
+
+    .brand-sub {
       display: block;
-      color: var(--aqua);
+
+      margin-top: 5px;
+
       font-size: 9px;
+
       letter-spacing: 2px;
-      margin-top: -2px;
+
+      color: var(--secondary);
     }
+
 
     .nav-links {
       display: flex;
       align-items: center;
       gap: 25px;
-      color: #496169;
+
       font-size: 14px;
-      font-weight: 800;
+      font-weight: 700;
+
+      color: #4d6570;
     }
+
 
     .nav-links a:hover {
-      color: var(--teal);
+      color: var(--primary);
     }
 
-    .nav-call {
-      background: var(--teal);
+
+    .nav-phone {
+      background: var(--primary);
+
       color: white !important;
+
       padding: 12px 18px;
+
       border-radius: 12px;
+
+      box-shadow:
+        0 8px 20px rgba(11, 92, 120, 0.18);
     }
 
-    /* HERO */
+
+    /* =========================
+       HERO
+    ========================= */
 
     .hero {
-      padding: 82px 0;
+      position: relative;
+
+      overflow: hidden;
+
+      padding: 82px 0 90px;
+
       background:
         radial-gradient(
-          circle at 85% 10%,
-          rgba(25,165,165,0.14),
-          transparent 30%
+          circle at 90% 10%,
+          rgba(21, 154, 156, 0.16),
+          transparent 28%
         ),
-        linear-gradient(135deg, #FFFFFF, #EAF6F4);
+        radial-gradient(
+          circle at 5% 90%,
+          rgba(11, 92, 120, 0.10),
+          transparent 25%
+        ),
+        linear-gradient(
+          135deg,
+          #f8fcfd,
+          #eaf6f8
+        );
     }
+
 
     .hero-grid {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+
+      grid-template-columns:
+        1.02fr
+        0.98fr;
+
       gap: 55px;
+
       align-items: center;
     }
 
-    .availability {
+
+    .eyebrow {
       display: inline-flex;
+
       align-items: center;
-      gap: 8px;
-      background: #E6F5F3;
-      color: var(--teal);
-      border: 1px solid #CAE8E5;
-      padding: 8px 14px;
+
+      gap: 9px;
+
+      background: white;
+
+      color: var(--secondary);
+
+      border: 1px solid #cce7e8;
+
+      padding: 9px 15px;
+
       border-radius: 50px;
+
       font-size: 12px;
+
       font-weight: 900;
-      text-transform: uppercase;
-      letter-spacing: .3px;
+
+      margin-bottom: 20px;
+
+      box-shadow:
+        0 8px 25px rgba(11, 92, 120, 0.06);
     }
 
-    .availability-dot {
+
+    .live-dot {
       width: 8px;
       height: 8px;
+
       border-radius: 50%;
-      background: var(--green);
+
+      background: #18a96b;
+
+      box-shadow:
+        0 0 0 5px rgba(24, 169, 107, 0.10);
     }
+
 
     h1 {
-      color: var(--teal-dark);
-      font-size: clamp(43px, 5.3vw, 69px);
+      color: var(--primary-dark);
+
+      font-size:
+        clamp(
+          43px,
+          5.4vw,
+          70px
+        );
+
       line-height: 1.02;
-      letter-spacing: -3px;
-      margin: 19px 0 22px;
+
+      letter-spacing: -2.7px;
+
+      margin-bottom: 24px;
     }
+
 
     h1 span {
-      color: var(--teal);
+      color: var(--primary);
     }
 
-    .hero-text {
+
+    .hero-description {
       color: var(--muted);
+
       font-size: 18px;
+
       max-width: 650px;
-      margin-bottom: 28px;
+
+      margin-bottom: 30px;
     }
+
+
+    .hero-location {
+      display: flex;
+
+      align-items: center;
+
+      gap: 9px;
+
+      margin-bottom: 27px;
+
+      color: var(--primary-dark);
+
+      font-size: 14px;
+
+      font-weight: 800;
+    }
+
+
+    .hero-location-icon {
+      width: 31px;
+      height: 31px;
+
+      border-radius: 50%;
+
+      background: white;
+
+      display: grid;
+      place-items: center;
+
+      box-shadow: var(--shadow-small);
+    }
+
 
     .buttons {
       display: flex;
+
       flex-wrap: wrap;
-      gap: 11px;
+
+      gap: 12px;
     }
 
-    .button {
+
+    .btn {
       min-height: 52px;
-      padding: 0 21px;
+
+      padding: 0 22px;
+
       display: inline-flex;
+
       align-items: center;
+
       justify-content: center;
+
+      gap: 9px;
+
       border-radius: 13px;
+
       font-weight: 900;
-      transition: .2s;
+
+      transition: 0.2s ease;
     }
 
-    .button:hover {
+
+    .btn:hover {
       transform: translateY(-2px);
     }
 
-    .button-call {
-      background: var(--teal);
+
+    .btn-call {
+      background: var(--primary);
+
       color: white;
-      box-shadow: 0 12px 25px rgba(11,104,115,.20);
+
+      box-shadow:
+        0 12px 28px rgba(11, 92, 120, 0.22);
     }
 
-    .button-whatsapp {
+
+    .btn-whatsapp {
       background: var(--green);
+
       color: white;
+
+      box-shadow:
+        0 12px 28px rgba(21, 159, 105, 0.18);
     }
 
-    .button-light {
+
+    .btn-outline {
       background: white;
-      color: var(--teal-dark);
+
+      color: var(--primary);
+
       border: 1px solid var(--border);
     }
+
 
     .trust-row {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 10px;
-      margin-top: 29px;
+
+      grid-template-columns:
+        repeat(3, 1fr);
+
+      gap: 12px;
+
+      margin-top: 32px;
     }
 
+
     .trust-box {
-      background: white;
+      background: rgba(255,255,255,0.82);
+
       border: 1px solid var(--border);
-      border-radius: 14px;
-      padding: 13px;
+
+      border-radius: 15px;
+
+      padding: 15px;
+
       font-size: 12px;
+
       color: var(--muted);
+
       font-weight: 700;
     }
 
+
     .trust-box strong {
       display: block;
-      color: var(--teal-dark);
-      font-size: 18px;
+
+      color: var(--primary-dark);
+
+      font-size: 17px;
+
+      margin-bottom: 2px;
     }
 
-    /* HERO IMAGE */
 
-    .hero-image {
-      height: 530px;
+    /* =========================
+       HERO TRUCK
+    ========================= */
+
+    .truck-card {
       position: relative;
+
+      min-height: 520px;
+
       overflow: hidden;
-      border: 7px solid white;
+
       border-radius: 30px;
-      background: #DCEBEA;
+
+      background: #d9e9ee;
+
+      border: 7px solid white;
+
       box-shadow: var(--shadow);
     }
 
-    .hero-image img {
+
+    .truck-card img {
       width: 100%;
-      height: 100%;
+      height: 520px;
+
       object-fit: cover;
     }
 
-    .image-label {
+
+    .truck-overlay {
       position: absolute;
-      left: 22px;
-      right: 22px;
-      bottom: 22px;
-      background: rgba(255,255,255,.96);
-      padding: 15px 18px;
-      border-radius: 15px;
-      box-shadow: 0 10px 30px rgba(0,0,0,.13);
+
+      inset: 0;
+
+      background:
+        linear-gradient(
+          to top,
+          rgba(4, 30, 42, 0.62),
+          transparent 45%
+        );
     }
 
-    .image-label strong {
+
+    .truck-info {
+      position: absolute;
+
+      left: 24px;
+      right: 24px;
+      bottom: 24px;
+
+      background:
+        rgba(255,255,255,0.96);
+
+      border-radius: 17px;
+
+      padding: 16px 18px;
+
+      box-shadow:
+        0 12px 35px rgba(0,0,0,0.15);
+    }
+
+
+    .truck-info strong {
       display: block;
-      color: var(--teal-dark);
+
+      color: var(--primary-dark);
+
+      font-size: 17px;
     }
 
-    .image-label span {
+
+    .truck-info span {
       color: var(--muted);
+
       font-size: 13px;
     }
 
-    /* GENERAL SECTIONS */
+
+    /* =========================
+       SECTIONS
+    ========================= */
 
     section {
       padding: 90px 0;
     }
 
+
     .soft-section {
-      background: var(--soft);
+      background: var(--soft-blue);
     }
 
-    .cream-section {
-      background: var(--cream);
+
+    .section-title {
+      max-width: 750px;
+
+      margin-bottom: 43px;
     }
 
-    .section-heading {
-      max-width: 730px;
-      margin-bottom: 40px;
+
+    .section-title.center {
+      text-align: center;
+
+      margin-left: auto;
+      margin-right: auto;
     }
+
 
     .kicker {
-      color: var(--teal);
-      font-size: 12px;
-      letter-spacing: 2px;
-      font-weight: 900;
+      color: var(--secondary);
+
       text-transform: uppercase;
+
+      letter-spacing: 2px;
+
+      font-size: 12px;
+
+      font-weight: 900;
+
+      margin-bottom: 9px;
     }
+
 
     h2 {
-      color: var(--teal-dark);
-      font-size: clamp(33px, 4vw, 48px);
+      color: var(--primary-dark);
+
+      font-size:
+        clamp(
+          32px,
+          4vw,
+          47px
+        );
+
       line-height: 1.08;
+
       letter-spacing: -1.7px;
-      margin: 8px 0 14px;
+
+      margin-bottom: 14px;
     }
 
-    .section-heading p,
-    .body-text {
+
+    .section-title p {
       color: var(--muted);
+
       font-size: 17px;
     }
 
-    /* SERVICES */
+
+    /* =========================
+       SERVICES
+    ========================= */
 
     .services-grid {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+
+      grid-template-columns:
+        repeat(3, 1fr);
+
       gap: 18px;
     }
 
+
     .service-card {
       background: white;
+
       border: 1px solid var(--border);
-      border-radius: 20px;
-      padding: 28px;
-      transition: .2s;
+
+      border-radius: var(--radius);
+
+      padding: 29px;
+
+      transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
     }
 
+
     .service-card:hover {
-      transform: translateY(-4px);
+      transform: translateY(-5px);
+
       box-shadow: var(--shadow);
     }
 
-    .service-icon {
-      width: 53px;
-      height: 53px;
-      border-radius: 15px;
-      background: #E7F5F3;
-      display: grid;
-      place-items: center;
-      font-size: 23px;
-      margin-bottom: 17px;
+
+    .service-number {
+      color: #a0b3bc;
+
+      font-size: 12px;
+
+      font-weight: 900;
+
+      letter-spacing: 1px;
+
+      margin-bottom: 18px;
     }
 
+
+    .service-icon {
+      width: 56px;
+      height: 56px;
+
+      display: grid;
+      place-items: center;
+
+      border-radius: 16px;
+
+      background: var(--soft);
+
+      color: var(--primary);
+
+      font-size: 26px;
+
+      margin-bottom: 20px;
+    }
+
+
     .service-card h3 {
-      color: var(--teal-dark);
+      color: var(--primary-dark);
+
       font-size: 20px;
+
       margin-bottom: 8px;
     }
 
+
     .service-card p {
       color: var(--muted);
+
       font-size: 14px;
     }
 
-    /* ABOUT */
+
+    /* =========================
+       ABOUT
+    ========================= */
 
     .about-grid {
       display: grid;
-      grid-template-columns: .9fr 1.1fr;
-      gap: 55px;
+
+      grid-template-columns:
+        0.88fr
+        1.12fr;
+
+      gap: 60px;
+
       align-items: center;
     }
 
+
     .about-panel {
-      background: linear-gradient(145deg, #12353C, #087783);
+      background:
+        linear-gradient(
+          145deg,
+          var(--primary-dark),
+          var(--primary)
+        );
+
       color: white;
+
       padding: 38px;
+
       border-radius: 28px;
+
       box-shadow: var(--shadow);
     }
 
+
     .about-panel h3 {
-      font-size: 29px;
+      font-size: 28px;
+
       line-height: 1.2;
-      margin-bottom: 11px;
+
+      margin-bottom: 12px;
     }
+
 
     .about-panel > p {
-      color: rgba(255,255,255,.75);
+      color: rgba(255,255,255,0.72);
     }
 
-    .stat {
+
+    .about-stat {
       display: flex;
-      gap: 15px;
-      padding: 18px 0;
-      border-bottom: 1px solid rgba(255,255,255,.14);
+
+      gap: 16px;
+
+      padding: 20px 0;
+
+      border-bottom:
+        1px solid rgba(255,255,255,0.14);
     }
 
-    .stat:last-child {
+
+    .about-stat:last-child {
       border-bottom: 0;
     }
 
-    .stat-number {
-      color: #83D8D4;
+
+    .about-number {
+      min-width: 65px;
+
+      color: #7bd3d0;
+
       font-size: 25px;
+
       font-weight: 900;
-      min-width: 62px;
     }
 
-    .stat span {
+
+    .about-stat strong {
       display: block;
-      color: rgba(255,255,255,.63);
-      font-size: 12px;
     }
+
+
+    .about-stat span {
+      display: block;
+
+      color: rgba(255,255,255,0.63);
+
+      font-size: 13px;
+    }
+
 
     .checks {
       display: grid;
-      gap: 13px;
-      margin: 25px 0;
+
+      gap: 15px;
+
+      margin: 26px 0 30px;
     }
+
 
     .check {
       display: flex;
-      gap: 10px;
+
+      gap: 12px;
+
+      align-items: flex-start;
+
       color: var(--muted);
     }
+
 
     .check-icon {
       width: 25px;
       height: 25px;
+
       flex-shrink: 0;
+
       display: grid;
       place-items: center;
+
       border-radius: 50%;
-      background: #E5F5F2;
-      color: var(--teal);
+
+      background: #e2f5f2;
+
+      color: var(--secondary);
+
       font-weight: 900;
     }
 
-    /* AREAS */
+
+    /* =========================
+       LOCATION
+    ========================= */
+
+    .location-section {
+      background: white;
+    }
+
+
+    .location-box {
+      display: grid;
+
+      grid-template-columns:
+        1fr
+        1fr;
+
+      gap: 25px;
+
+      align-items: stretch;
+    }
+
+
+    .location-content {
+      padding: 35px;
+
+      background: var(--soft);
+
+      border: 1px solid var(--border);
+
+      border-radius: 25px;
+    }
+
+
+    .location-content h3 {
+      color: var(--primary-dark);
+
+      font-size: 28px;
+
+      margin-bottom: 12px;
+    }
+
+
+    .location-content p {
+      color: var(--muted);
+
+      margin-bottom: 22px;
+    }
+
+
+    .location-details {
+      display: grid;
+
+      gap: 12px;
+    }
+
+
+    .location-detail {
+      display: flex;
+
+      align-items: center;
+
+      gap: 12px;
+
+      background: white;
+
+      border: 1px solid var(--border);
+
+      border-radius: 13px;
+
+      padding: 13px 15px;
+
+      font-weight: 800;
+
+      color: var(--primary-dark);
+    }
+
+
+    .location-detail span {
+      color: var(--muted);
+
+      font-weight: 600;
+
+      font-size: 13px;
+    }
+
+
+    .map-box {
+      min-height: 360px;
+
+      border-radius: 25px;
+
+      overflow: hidden;
+
+      border: 1px solid var(--border);
+
+      box-shadow: var(--shadow-small);
+    }
+
+
+    .map-box iframe {
+      width: 100%;
+
+      height: 100%;
+
+      min-height: 360px;
+
+      border: 0;
+    }
+
+
+    /* =========================
+       AREAS
+    ========================= */
 
     .areas {
       display: flex;
+
       flex-wrap: wrap;
-      gap: 10px;
+
+      gap: 11px;
     }
+
 
     .area {
       background: white;
+
       border: 1px solid var(--border);
-      color: var(--teal-dark);
-      padding: 11px 17px;
+
+      color: var(--primary-dark);
+
+      padding: 12px 18px;
+
       border-radius: 50px;
+
       font-size: 14px;
+
       font-weight: 800;
     }
 
-    /* FAQ */
+
+    /* =========================
+       FAQ
+    ========================= */
 
     .faq {
       max-width: 850px;
+
       margin: auto;
     }
 
+
     details {
       background: white;
+
       border: 1px solid var(--border);
+
       border-radius: 15px;
-      margin-bottom: 11px;
+
+      margin-bottom: 12px;
+
       padding: 0 20px;
     }
 
+
     summary {
       list-style: none;
+
       cursor: pointer;
+
+      padding: 20px 35px 20px 0;
+
+      color: var(--primary-dark);
+
+      font-weight: 800;
+
       position: relative;
-      padding: 19px 30px 19px 0;
-      color: var(--teal-dark);
-      font-weight: 850;
     }
+
 
     summary::-webkit-details-marker {
       display: none;
     }
 
+
     summary::after {
       content: "+";
+
       position: absolute;
+
       right: 0;
-      color: var(--teal);
-      font-size: 21px;
+
+      top: 15px;
+
+      font-size: 24px;
+
+      color: var(--secondary);
     }
+
 
     details[open] summary::after {
       content: "−";
     }
 
+
     details p {
       color: var(--muted);
-      font-size: 14px;
+
       padding-bottom: 20px;
+
+      font-size: 15px;
     }
 
-    /* CONTACT CTA */
+
+    /* =========================
+       CTA
+    ========================= */
 
     .cta {
-      background: linear-gradient(135deg, #102F37, #087783);
+      padding: 70px 0;
+
+      background:
+        linear-gradient(
+          135deg,
+          var(--primary-dark),
+          var(--primary)
+        );
+
       color: white;
     }
 
+
     .cta-grid {
       display: flex;
+
       align-items: center;
+
       justify-content: space-between;
-      gap: 30px;
+
+      gap: 35px;
     }
+
 
     .cta h2 {
       color: white;
     }
 
+
     .cta p {
-      color: rgba(255,255,255,.74);
+      color: rgba(255,255,255,0.72);
+
       max-width: 650px;
     }
 
-    /* FOOTER */
+
+    /* =========================
+       FOOTER
+    ========================= */
 
     footer {
-      background: #071F27;
+      background: #061d2b;
+
       color: white;
-      padding: 55px 0 25px;
+
+      padding: 60px 0 25px;
     }
+
 
     .footer-grid {
       display: grid;
-      grid-template-columns: 1.5fr 1fr 1fr;
+
+      grid-template-columns:
+        1.4fr
+        1fr
+        1fr;
+
       gap: 45px;
-      padding-bottom: 35px;
+
+      padding-bottom: 40px;
     }
 
+
     footer h3 {
-      margin-bottom: 13px;
+      margin-bottom: 16px;
     }
+
 
     footer p,
     footer a {
-      color: rgba(255,255,255,.62);
+      color: rgba(255,255,255,0.65);
+
       font-size: 14px;
     }
 
+
+    footer a:hover {
+      color: white;
+    }
+
+
     .footer-links {
       display: grid;
-      gap: 8px;
-    }
 
-    .copyright {
-      border-top: 1px solid rgba(255,255,255,.12);
-      padding-top: 20px;
-      color: rgba(255,255,255,.45);
-      font-size: 12px;
-      display: flex;
-      justify-content: space-between;
-      gap: 15px;
-    }
-
-    /* FLOATING BUTTONS */
-
-    .floating {
-      position: fixed;
-      right: 18px;
-      bottom: 18px;
-      z-index: 999;
-      display: grid;
       gap: 9px;
     }
 
-    .floating a {
-      width: 54px;
-      height: 54px;
-      border-radius: 50%;
-      display: grid;
-      place-items: center;
-      color: white;
-      font-size: 21px;
-      box-shadow: 0 10px 25px rgba(0,0,0,.18);
+
+    .footer-phone {
+      color: #7bd3d0 !important;
+
+      font-weight: 900;
     }
 
-    .floating-call {
-      background: var(--teal);
+
+    .copyright {
+      border-top:
+        1px solid rgba(255,255,255,0.10);
+
+      padding-top: 20px;
+
+      display: flex;
+
+      justify-content: space-between;
+
+      gap: 15px;
+
+      color: rgba(255,255,255,0.45);
+
+      font-size: 12px;
     }
+
+
+    /* =========================
+       FLOATING BUTTONS
+    ========================= */
+
+    .floating {
+      position: fixed;
+
+      right: 18px;
+      bottom: 18px;
+
+      z-index: 1000;
+
+      display: flex;
+
+      flex-direction: column;
+
+      gap: 10px;
+    }
+
+
+    .floating a {
+      width: 55px;
+      height: 55px;
+
+      border-radius: 50%;
+
+      display: grid;
+      place-items: center;
+
+      color: white;
+
+      font-size: 22px;
+
+      box-shadow:
+        0 12px 28px rgba(0,0,0,0.20);
+    }
+
+
+    .floating-call {
+      background: var(--primary);
+    }
+
 
     .floating-whatsapp {
       background: var(--green);
     }
 
-    /* MOBILE */
 
-    @media (max-width: 900px) {
+    /* =========================
+       MOBILE
+    ========================= */
+
+    @media (max-width: 950px) {
 
       .nav-links {
         display: none;
       }
 
+
       .hero-grid,
-      .about-grid {
+      .about-grid,
+      .location-box {
         grid-template-columns: 1fr;
       }
 
+
       .services-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns:
+          repeat(2, 1fr);
       }
 
-      .hero-image {
-        height: 420px;
-      }
 
       .cta-grid {
         flex-direction: column;
+
         align-items: flex-start;
       }
 
+
       .footer-grid {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns:
+          1fr 1fr;
       }
     }
 
-    @media (max-width: 600px) {
 
-      .top-bar span {
+    @media (max-width: 620px) {
+
+      .container {
+        width: 90%;
+      }
+
+
+      .topbar-right {
         display: none;
       }
 
-      .top-bar .container {
+
+      .topbar-inner {
         justify-content: center;
+
         text-align: center;
       }
+
+
+      nav {
+        min-height: 70px;
+      }
+
+
+      .brand-icon {
+        width: 43px;
+        height: 43px;
+      }
+
+
+      .brand-name {
+        font-size: 16px;
+      }
+
 
       .hero {
         padding: 55px 0 65px;
       }
 
+
       h1 {
-        letter-spacing: -2px;
+        font-size: 43px;
+
+        letter-spacing: -1.8px;
       }
 
-      .hero-text {
+
+      .hero-description {
         font-size: 16px;
       }
 
-      .trust-row,
+
+      .trust-row {
+        grid-template-columns: 1fr;
+      }
+
+
+      .truck-card {
+        min-height: 330px;
+      }
+
+
+      .truck-card img {
+        height: 330px;
+      }
+
+
       .services-grid {
         grid-template-columns: 1fr;
       }
 
-      .hero-image {
-        height: 310px;
-      }
 
       section {
         padding: 65px 0;
       }
 
+
       .footer-grid {
         grid-template-columns: 1fr;
       }
 
+
       .copyright {
         flex-direction: column;
       }
+
+
+      .buttons {
+        width: 100%;
+      }
+
+
+      .btn {
+        width: 100%;
+      }
+
+
+      .nav-phone {
+        display: none;
+      }
+
+
+      .floating {
+        right: 14px;
+        bottom: 14px;
+      }
     }
+
   </style>
-
-  <!-- Google structured data -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "Al Ain Recovery",
-    "url": "https://alainrecoveryuae.com/",
-    "telephone": "+971551525352",
-    "description": "24/7 vehicle recovery and roadside assistance in Al Ain, UAE.",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Al Ain",
-      "addressRegion": "Abu Dhabi",
-      "addressCountry": "AE"
-    },
-    "areaServed": {
-      "@type": "City",
-      "name": "Al Ain"
-    },
-    "openingHours": "Mo-Su 00:00-23:59"
-  }
-  </script>
-
 </head>
+
 
 <body>
 
-<!-- TOP BAR -->
 
-<div class="top-bar">
-  <div class="container">
-    <strong>24/7 Vehicle Recovery • Al Ain, UAE</strong>
-    <span>Fast Response • Safe Vehicle Handling • Roadside Assistance</span>
-  </div>
-</div>
+  <!-- =========================
+       TOP BAR
+  ========================= -->
 
+  <div class="topbar">
 
-<!-- HEADER -->
+    <div class="container topbar-inner">
 
-<header>
+      <strong>
+        24/7 Emergency Vehicle Recovery • Al Ain, UAE
+      </strong>
 
-  <div class="container">
-
-    <nav>
-
-      <a href="#home" class="brand">
-
-        <div class="brand-logo">
-          AR
-        </div>
-
-        <div class="brand-name">
-          Al Ain Recovery
-          <span class="brand-small">
-            VEHICLE RECOVERY • UAE
-          </span>
-        </div>
-
-      </a>
-
-
-      <div class="nav-links">
-
-        <a href="#services">
-          Services
-        </a>
-
-        <a href="#about">
-          About
-        </a>
-
-        <a href="#areas">
-          Areas
-        </a>
-
-        <a href="#faq">
-          FAQ
-        </a>
-
-        <a href="#contact">
-          Contact
-        </a>
-
-        <a
-          class="nav-call"
-          href="tel:+971551525352">
-          Call Now
-        </a>
-
-      </div>
-
-    </nav>
-
-  </div>
-
-</header>
-
-
-<main id="home">
-
-
-<!-- HERO -->
-
-<section class="hero">
-
-  <div class="container hero-grid">
-
-    <div>
-
-      <div class="availability">
-        <span class="availability-dot"></span>
-        Available 24 Hours • Al Ain
-      </div>
-
-
-      <h1>
-        Professional
-        <span>Vehicle Recovery</span>
-        in Al Ain, UAE
-      </h1>
-
-
-      <p class="hero-text">
-        Reliable 24/7 car recovery and roadside assistance
-        for breakdowns, flatbed transport, battery problems,
-        vehicle lockouts and safe vehicle transportation
-        across Al Ain.
-      </p>
-
-
-      <div class="buttons">
-
-        <a
-          class="button button-call"
-          href="tel:+971551525352">
-          ☎ Call Now
-        </a>
-
-        <a
-          class="button button-whatsapp"
-          href="https://wa.me/971551525352"
-          target="_blank"
-          rel="noopener">
-          ◉ WhatsApp
-        </a>
-
-        <a
-          class="button button-light"
-          href="#services">
-          View Services
-        </a>
-
-      </div>
-
-
-      <div class="trust-row">
-
-        <div class="trust-box">
-          <strong>24/7</strong>
-          Emergency Availability
-        </div>
-
-        <div class="trust-box">
-          <strong>FAST</strong>
-          Local Response
-        </div>
-
-        <div class="trust-box">
-          <strong>SAFE</strong>
-          Vehicle Handling
-        </div>
-
-      </div>
-
-    </div>
-
-
-    <!-- UAE ISUZU RECOVERY TRUCK -->
-
-    <div class="hero-image">
-
-      <img
-        src="https://www.isuzu-uae.ae/wp-content/uploads/2024/03/flatbed.jpg"
-        alt="Isuzu flatbed recovery truck in UAE">
-
-      <div class="image-label">
-
-        <strong>
-          Professional Recovery Transport
-        </strong>
-
-        <span>
-          Flatbed Vehicle Recovery in Al Ain, UAE
-        </span>
-
+      <div class="topbar-right">
+        Fast Response • Professional Vehicle Handling
       </div>
 
     </div>
 
   </div>
 
-</section>
 
+  <!-- =========================
+       HEADER
+  ========================= -->
 
-<!-- SERVICES -->
+  <header>
 
-<section id="services">
+    <div class="container">
 
-  <div class="container">
+      <nav>
 
-    <div class="section-heading">
+        <a href="#home" class="brand">
 
-      <div class="kicker">
-        Our Services
-      </div>
-
-      <h2>
-        Complete recovery support when you need it.
-      </h2>
-
-      <p>
-        Professional vehicle recovery and roadside assistance
-        for drivers throughout Al Ain and nearby areas.
-      </p>
-
-    </div>
-
-
-    <div class="services-grid">
-
-
-      <article class="service-card">
-
-        <div class="service-icon">
-          🚗
-        </div>
-
-        <h3>
-          Car Recovery
-        </h3>
-
-        <p>
-          Reliable recovery when a vehicle has broken down,
-          stopped working or cannot safely continue.
-        </p>
-
-      </article>
-
-
-      <article class="service-card">
-
-        <div class="service-icon">
-          🏎
-        </div>
-
-        <h3>
-          Sports & Luxury Recovery
-        </h3>
-
-        <p>
-          Careful transportation for sports, luxury
-          and low-clearance vehicles.
-        </p>
-
-      </article>
-
-
-      <article class="service-card">
-
-        <div class="service-icon">
-          🚛
-        </div>
-
-        <h3>
-          Flatbed Recovery
-        </h3>
-
-        <p>
-          Secure flatbed transport when a vehicle
-          should be moved without driving it.
-        </p>
-
-      </article>
-
-
-      <article class="service-card">
-
-        <div class="service-icon">
-          🛠
-        </div>
-
-        <h3>
-          Roadside Assistance
-        </h3>
-
-        <p>
-          Roadside support for unexpected vehicle
-          problems around Al Ain.
-        </p>
-
-      </article>
-
-
-      <article class="service-card">
-
-        <div class="service-icon">
-          🔋
-        </div>
-
-        <h3>
-          Battery Assistance
-        </h3>
-
-        <p>
-          Assistance for vehicles that will not start
-          because of a weak or discharged battery.
-        </p>
-
-      </article>
-
-
-      <article class="service-card">
-
-        <div class="service-icon">
-          🔑
-        </div>
-
-        <h3>
-          Vehicle Lockout Assistance
-        </h3>
-
-        <p>
-          Professional assistance when you are
-          locked out of your vehicle.
-        </p>
-
-      </article>
-
-
-    </div>
-
-  </div>
-
-</section>
-
-
-<!-- ABOUT -->
-
-<section id="about" class="soft-section">
-
-  <div class="container about-grid">
-
-
-    <div class="about-panel">
-
-      <h3>
-        Local recovery support,
-        focused on a safe next step.
-      </h3>
-
-      <p>
-        When your vehicle stops unexpectedly,
-        getting you and your vehicle to a safe
-        next step is the priority.
-      </p>
-
-
-      <div class="stat">
-
-        <div class="stat-number">
-          24/7
-        </div>
-
-        <div>
-
-          <strong>
-            Emergency Availability
-          </strong>
-
-          <span>
-            Contact us whenever recovery assistance is needed.
-          </span>
-
-        </div>
-
-      </div>
-
-
-      <div class="stat">
-
-        <div class="stat-number">
-          AL
-        </div>
-
-        <div>
-
-          <strong>
-            Al Ain Local Focus
-          </strong>
-
-          <span>
-            Serving drivers throughout Al Ain and nearby areas.
-          </span>
-
-        </div>
-
-      </div>
-
-
-      <div class="stat">
-
-        <div class="stat-number">
-          UAE
-        </div>
-
-        <div>
-
-          <strong>
-            Vehicle Transport
-          </strong>
-
-          <span>
-            Recovery and flatbed transport for different vehicles.
-          </span>
-
-        </div>
-
-      </div>
-
-    </div>
-
-
-    <div>
-
-      <div class="kicker">
-        Why Choose Al Ain Recovery
-      </div>
-
-      <h2>
-        Professional help for everyday
-        cars and special vehicles.
-      </h2>
-
-      <p class="body-text">
-        Al Ain Recovery provides dependable vehicle recovery
-        and roadside assistance in Al Ain, UAE. Our focus is
-        practical assistance and careful vehicle handling.
-      </p>
-
-
-      <div class="checks">
-
-        <div class="check">
-
-          <span class="check-icon">
-            ✓
-          </span>
-
-          24/7 emergency vehicle recovery availability
-
-        </div>
-
-
-        <div class="check">
-
-          <span class="check-icon">
-            ✓
-          </span>
-
-          Fast local response across Al Ain
-
-        </div>
-
-
-        <div class="check">
-
-          <span class="check-icon">
-            ✓
-          </span>
-
-          Flatbed transport for complete recovery
-
-        </div>
-
-
-        <div class="check">
-
-          <span class="check-icon">
-            ✓
-          </span>
-
-          Careful handling for sports and luxury vehicles
-
-        </div>
-
-
-        <div class="check">
-
-          <span class="check-icon">
-            ✓
-          </span>
-
-          Roadside assistance for common vehicle problems
-
-        </div>
-
-      </div>
-
-
-      <a
-        class="button button-call"
-        href="tel:+971551525352">
-        ☎ Contact Recovery
-      </a>
-
-    </div>
-
-  </div>
-
-</section>
-
-
-<!-- AREAS -->
-
-<section id="areas" class="cream-section">
-
-  <div class="container">
-
-    <div class="section-heading">
-
-      <div class="kicker">
-        Service Area
-      </div>
-
-      <h2>
-        Vehicle recovery across Al Ain.
-      </h2>
-
-      <p>
-        Local recovery and roadside assistance for
-        customers throughout Al Ain, Abu Dhabi Emirate
-        and nearby areas.
-      </p>
-
-    </div>
-
-
-    <div class="areas">
-
-      <span class="area">
-        Al Ain
-      </span>
-
-      <span class="area">
-        Al Jimi
-      </span>
-
-      <span class="area">
-        Al Mutaredh
-      </span>
-
-      <span class="area">
-        Al Muwaiji
-      </span>
-
-      <span class="area">
-        Al Towayya
-      </span>
-
-      <span class="area">
-        Al Foah
-      </span>
-
-      <span class="area">
-        Al Ain Industrial Area
-      </span>
-
-      <span class="area">
-        Nearby Areas
-      </span>
-
-    </div>
-
-  </div>
-
-</section>
-
-
-<!-- FAQ -->
-
-<section id="faq" class="soft-section">
-
-  <div class="container">
-
-    <div
-      class="section-heading"
-      style="margin-left:auto;margin-right:auto;text-align:center">
-
-      <div class="kicker">
-        Frequently Asked Questions
-      </div>
-
-      <h2>
-        Quick answers before you call.
-      </h2>
-
-      <p>
-        Information about vehicle recovery and
-        roadside assistance in Al Ain.
-      </p>
-
-    </div>
-
-
-    <div class="faq">
-
-
-      <details>
-
-        <summary>
-          Do you provide 24/7 car recovery in Al Ain?
-        </summary>
-
-        <p>
-          Yes. Contact Al Ain Recovery for emergency
-          vehicle recovery and roadside assistance
-          24 hours a day.
-        </p>
-
-      </details>
-
-
-      <details>
-
-        <summary>
-          Do you recover sports and luxury cars?
-        </summary>
-
-        <p>
-          Yes. We provide careful recovery and
-          transportation for sports, luxury and
-          low-clearance vehicles.
-        </p>
-
-      </details>
-
-
-      <details>
-
-        <summary>
-          Do you provide flatbed vehicle recovery?
-        </summary>
-
-        <p>
-          Yes. Flatbed recovery is suitable when
-          the vehicle needs complete transportation
-          instead of being driven.
-        </p>
-
-      </details>
-
-
-      <details>
-
-        <summary>
-          Do you provide roadside assistance in Al Ain?
-        </summary>
-
-        <p>
-          Yes. Contact us for roadside assistance
-          and vehicle recovery around Al Ain and
-          nearby areas.
-        </p>
-
-      </details>
-
-
-      <details>
-
-        <summary>
-          How can I contact Al Ain Recovery?
-        </summary>
-
-        <p>
-          Call 0551525352 or use WhatsApp to contact
-          Al Ain Recovery directly.
-        </p>
-
-      </details>
-
-
-    </div>
-
-  </div>
-
-</section>
-
-
-<!-- CONTACT -->
-
-<section id="contact" class="cta">
-
-  <div class="container cta-grid">
-
-    <div>
-
-      <div
-        class="kicker"
-        style="color:#83D8D4">
-        Need Help Now?
-      </div>
-
-      <h2>
-        Stranded with your vehicle in Al Ain?
-      </h2>
-
-      <p>
-        Contact Al Ain Recovery for vehicle recovery
-        and roadside assistance in Al Ain, UAE.
-      </p>
-
-    </div>
-
-
-    <div class="buttons">
-
-      <a
-        class="button button-light"
-        href="tel:+971551525352">
-        ☎ Call 0551525352
-      </a>
-
-      <a
-        class="button button-whatsapp"
-        href="https://wa.me/971551525352"
-        target="_blank"
-        rel="noopener">
-        ◉ WhatsApp
-      </a>
-
-    </div>
-
-  </div>
-
-</section>
-
-</main>
-
-
-<!-- FOOTER -->
-
-<footer>
-
-  <div class="container">
-
-    <div class="footer-grid">
-
-
-      <div>
-
-        <div
-          class="brand"
-          style="color:white;margin-bottom:16px">
-
-          <div class="brand-logo">
+          <div class="brand-icon">
             AR
           </div>
 
           <div class="brand-name">
-
             Al Ain Recovery
 
-            <span
-              class="brand-small"
-              style="color:#83D8D4">
+            <small class="brand-sub">
               VEHICLE RECOVERY • UAE
-            </span>
-
+            </small>
           </div>
 
-        </div>
+        </a>
 
 
-        <p>
-          24/7 vehicle recovery and roadside assistance
-          in Al Ain, UAE. Professional recovery, flatbed
-          transport and roadside support.
-        </p>
-
-      </div>
-
-
-      <div>
-
-        <h3>
-          Services
-        </h3>
-
-        <div class="footer-links">
+        <div class="nav-links">
 
           <a href="#services">
-            Car Recovery
+            Services
           </a>
-
-          <a href="#services">
-            Sports & Luxury Recovery
-          </a>
-
-          <a href="#services">
-            Flatbed Recovery
-          </a>
-
-          <a href="#services">
-            Roadside Assistance
-          </a>
-
-          <a href="#services">
-            Battery Assistance
-          </a>
-
-        </div>
-
-      </div>
-
-
-      <div>
-
-        <h3>
-          Quick Links
-        </h3>
-
-        <div class="footer-links">
 
           <a href="#about">
             About
           </a>
 
+          <a href="#location">
+            Location
+          </a>
+
           <a href="#areas">
-            Service Areas
+            Areas
           </a>
 
           <a href="#faq">
             FAQ
           </a>
 
-          <a href="#contact">
-            Contact
+          <a
+            href="tel:+971551525352"
+            class="nav-phone"
+          >
+            Call Now
           </a>
 
-          <a href="tel:+971551525352">
-            Call 0551525352
+        </div>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+
+  <main id="home">
+
+
+    <!-- =========================
+         HERO
+    ========================= -->
+
+    <section class="hero">
+
+      <div class="container hero-grid">
+
+
+        <div>
+
+          <div class="eyebrow">
+
+            <span class="live-dot"></span>
+
+            Available 24/7 in Al Ain
+
+          </div>
+
+
+          <h1>
+
+            Professional Vehicle Recovery
+            <span>in Al Ain</span>
+
+          </h1>
+
+
+          <p class="hero-description">
+
+            Fast and reliable 24/7 car recovery and roadside
+            assistance in Al Ain, UAE. From emergency breakdowns
+            to flatbed transport, we help you get your vehicle
+            safely where it needs to go.
+
+          </p>
+
+
+          <div class="hero-location">
+
+            <span class="hero-location-icon">
+              📍
+            </span>
+
+            Al Ain, Abu Dhabi, United Arab Emirates
+
+          </div>
+
+
+          <div class="buttons">
+
+            <a
+              href="tel:+971551525352"
+              class="btn btn-call"
+            >
+              ☎ Call 0551525352
+            </a>
+
+
+            <a
+              href="https://wa.me/971551525352"
+              target="_blank"
+              rel="noopener"
+              class="btn btn-whatsapp"
+            >
+              ◉ WhatsApp
+            </a>
+
+
+            <a
+              href="#services"
+              class="btn btn-outline"
+            >
+              Explore Services
+            </a>
+
+          </div>
+
+
+          <div class="trust-row">
+
+            <div class="trust-box">
+
+              <strong>
+                24/7
+              </strong>
+
+              Emergency Support
+
+            </div>
+
+
+            <div class="trust-box">
+
+              <strong>
+                FAST
+              </strong>
+
+              Local Response
+
+            </div>
+
+
+            <div class="trust-box">
+
+              <strong>
+                SAFE
+              </strong>
+
+              Vehicle Handling
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- UAE ISUZU RECOVERY TRUCK -->
+
+        <div class="truck-card">
+
+          <img
+            src="https://www.isuzu-uae.ae/wp-content/uploads/2024/03/flatbed.jpg"
+            alt="Isuzu flatbed vehicle recovery truck in UAE"
+            loading="eager"
+          >
+
+
+          <div class="truck-overlay"></div>
+
+
+          <div class="truck-info">
+
+            <strong>
+              UAE Recovery Truck
+            </strong>
+
+            <span>
+              Flatbed vehicle transport • Al Ain, UAE
+            </span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         SERVICES
+    ========================= -->
+
+    <section id="services">
+
+      <div class="container">
+
+        <div class="section-title">
+
+          <div class="kicker">
+            Our Services
+          </div>
+
+          <h2>
+            Complete Vehicle Recovery Solutions
+          </h2>
+
+          <p>
+            Professional recovery and roadside assistance for
+            cars, SUVs, luxury vehicles and everyday motorists
+            across Al Ain.
+          </p>
+
+        </div>
+
+
+        <div class="services-grid">
+
+
+          <article class="service-card">
+
+            <div class="service-number">
+              01
+            </div>
+
+            <div class="service-icon">
+              🚗
+            </div>
+
+            <h3>
+              Car Recovery
+            </h3>
+
+            <p>
+              Reliable vehicle recovery when your car has broken
+              down or cannot safely continue driving.
+            </p>
+
+          </article>
+
+
+          <article class="service-card">
+
+            <div class="service-number">
+              02
+            </div>
+
+            <div class="service-icon">
+              🏎
+            </div>
+
+            <h3>
+              Sports & Luxury Recovery
+            </h3>
+
+            <p>
+              Careful recovery and transportation for luxury,
+              performance and low-clearance vehicles.
+            </p>
+
+          </article>
+
+
+          <article class="service-card">
+
+            <div class="service-number">
+              03
+            </div>
+
+            <div class="service-icon">
+              🚛
+            </div>
+
+            <h3>
+              Flatbed Recovery
+            </h3>
+
+            <p>
+              Secure flatbed transport when your vehicle needs
+              complete transportation instead of being driven.
+            </p>
+
+          </article>
+
+
+          <article class="service-card">
+
+            <div class="service-number">
+              04
+            </div>
+
+            <div class="service-icon">
+              🛠
+            </div>
+
+            <h3>
+              Roadside Assistance
+            </h3>
+
+            <p>
+              Practical roadside support for unexpected vehicle
+              problems while travelling around Al Ain.
+            </p>
+
+          </article>
+
+
+          <article class="service-card">
+
+            <div class="service-number">
+              05
+            </div>
+
+            <div class="service-icon">
+              🔋
+            </div>
+
+            <h3>
+              Battery Assistance
+            </h3>
+
+            <p>
+              Assistance for vehicles that will not start because
+              of a weak or discharged battery.
+            </p>
+
+          </article>
+
+
+          <article class="service-card">
+
+            <div class="service-number">
+              06
+            </div>
+
+            <div class="service-icon">
+              🔑
+            </div>
+
+            <h3>
+              Vehicle Lockout Assistance
+            </h3>
+
+            <p>
+              Professional assistance when you are locked out
+              of your vehicle and need help getting back on the road.
+            </p>
+
+          </article>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         ABOUT
+    ========================= -->
+
+    <section id="about" class="soft-section">
+
+      <div class="container about-grid">
+
+
+        <div class="about-panel">
+
+          <h3>
+            Reliable recovery when your vehicle needs help.
+          </h3>
+
+          <p>
+            When a vehicle stops unexpectedly, getting safe,
+            professional assistance is the priority.
+          </p>
+
+
+          <div class="about-stat">
+
+            <div class="about-number">
+              24/7
+            </div>
+
+            <div>
+
+              <strong>
+                Emergency Availability
+              </strong>
+
+              <span>
+                Contact us whenever recovery assistance is required.
+              </span>
+
+            </div>
+
+          </div>
+
+
+          <div class="about-stat">
+
+            <div class="about-number">
+              AL
+            </div>
+
+            <div>
+
+              <strong>
+                Al Ain Local Focus
+              </strong>
+
+              <span>
+                Vehicle recovery across Al Ain and surrounding areas.
+              </span>
+
+            </div>
+
+          </div>
+
+
+          <div class="about-stat">
+
+            <div class="about-number">
+              UAE
+            </div>
+
+            <div>
+
+              <strong>
+                Vehicle Transport
+              </strong>
+
+              <span>
+                Recovery and flatbed transport for different vehicles.
+              </span>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <div>
+
+          <div class="kicker">
+            Why Al Ain Recovery
+          </div>
+
+          <h2>
+            Professional assistance with your vehicle in mind.
+          </h2>
+
+          <p
+            style="
+              color:var(--muted);
+              font-size:17px;
+            "
+          >
+            Al Ain Recovery provides dependable vehicle recovery
+            and roadside assistance in Al Ain, UAE. Whether you
+            drive a family car, SUV, luxury vehicle or performance
+            car, our focus is safe handling and practical recovery.
+          </p>
+
+
+          <div class="checks">
+
+
+            <div class="check">
+
+              <span class="check-icon">
+                ✓
+              </span>
+
+              <span>
+                24/7 emergency vehicle recovery availability
+              </span>
+
+            </div>
+
+
+            <div class="check">
+
+              <span class="check-icon">
+                ✓
+              </span>
+
+              <span>
+                Fast local response across Al Ain
+              </span>
+
+            </div>
+
+
+            <div class="check">
+
+              <span class="check-icon">
+                ✓
+              </span>
+
+              <span>
+                Flatbed transport for complete vehicle recovery
+              </span>
+
+            </div>
+
+
+            <div class="check">
+
+              <span class="check-icon">
+                ✓
+              </span>
+
+              <span>
+                Careful handling for sports and luxury vehicles
+              </span>
+
+            </div>
+
+
+            <div class="check">
+
+              <span class="check-icon">
+                ✓
+              </span>
+
+              <span>
+                Roadside assistance for common vehicle problems
+              </span>
+
+            </div>
+
+
+          </div>
+
+
+          <a
+            href="tel:+971551525352"
+            class="btn btn-call"
+          >
+            ☎ Call 0551525352
           </a>
 
         </div>
 
       </div>
 
+    </section>
+
+
+    <!-- =========================
+         LOCATION
+    ========================= -->
+
+    <section id="location" class="location-section">
+
+      <div class="container">
+
+
+        <div class="section-title center">
+
+          <div class="kicker">
+            Our Location
+          </div>
+
+          <h2>
+            Vehicle Recovery in Al Ain, UAE
+          </h2>
+
+          <p>
+            Serving customers throughout Al Ain and nearby
+            areas in the Emirate of Abu Dhabi.
+          </p>
+
+        </div>
+
+
+        <div class="location-box">
+
+
+          <div class="location-content">
+
+            <h3>
+              Al Ain, Abu Dhabi
+            </h3>
+
+            <p>
+              If your vehicle has broken down, needs transport,
+              or requires roadside assistance, contact us directly.
+              Response time can vary according to your exact
+              location and traffic conditions.
+            </p>
+
+
+            <div class="location-details">
+
+
+              <div class="location-detail">
+
+                📍
+
+                <div>
+                  Al Ain
+                  <span>
+                    Abu Dhabi, UAE
+                  </span>
+                </div>
+
+              </div>
+
+
+              <div class="location-detail">
+
+                ☎
+
+                <div>
+                  0551525352
+                  <span>
+                    24/7 direct contact
+                  </span>
+                </div>
+
+              </div>
+
+
+              <div class="location-detail">
+
+                🛻
+
+                <div>
+                  Vehicle Recovery
+                  <span>
+                    Car, SUV & flatbed recovery
+                  </span>
+                </div>
+
+              </div>
+
+
+              <div class="location-detail">
+
+                ◉
+
+                <div>
+                  WhatsApp Available
+                  <span>
+                    Contact us directly
+                  </span>
+                </div>
+
+              </div>
+
+
+            </div>
+
+          </div>
+
+
+          <div class="map-box">
+
+            <iframe
+              src="https://www.google.com/maps?q=Al%20Ain%2C%20Abu%20Dhabi%2C%20UAE&output=embed"
+              title="Al Ain UAE location map"
+              loading="lazy"
+              allowfullscreen
+            ></iframe>
+
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         SERVICE AREAS
+    ========================= -->
+
+    <section id="areas" class="soft-section">
+
+      <div class="container">
+
+        <div class="section-title">
+
+          <div class="kicker">
+            Service Areas
+          </div>
+
+          <h2>
+            Recovery Across Al Ain
+          </h2>
+
+          <p>
+            Local vehicle recovery and roadside assistance
+            throughout Al Ain and nearby locations.
+          </p>
+
+        </div>
+
+
+        <div class="areas">
+
+          <span class="area">
+            Al Ain
+          </span>
+
+          <span class="area">
+            Al Jimi
+          </span>
+
+          <span class="area">
+            Al Muwaiji
+          </span>
+
+          <span class="area">
+            Al Mutaredh
+          </span>
+
+          <span class="area">
+            Al Towayya
+          </span>
+
+          <span class="area">
+            Al Foah
+          </span>
+
+          <span class="area">
+            Al Ain Industrial Area
+          </span>
+
+          <span class="area">
+            Al Ain City
+          </span>
+
+          <span class="area">
+            Nearby Al Ain Areas
+          </span>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         FAQ
+    ========================= -->
+
+    <section id="faq">
+
+      <div class="container">
+
+
+        <div class="section-title center">
+
+          <div class="kicker">
+            FAQ
+          </div>
+
+          <h2>
+            Frequently Asked Questions
+          </h2>
+
+          <p>
+            Quick answers about vehicle recovery and roadside assistance.
+          </p>
+
+        </div>
+
+
+        <div class="faq">
+
+
+          <details>
+
+            <summary>
+              Do you provide 24/7 car recovery in Al Ain?
+            </summary>
+
+            <p>
+              Yes. Al Ain Recovery is available for emergency
+              vehicle recovery and roadside assistance 24 hours a day.
+            </p>
+
+          </details>
+
+
+          <details>
+
+            <summary>
+              Can you recover sports and luxury cars?
+            </summary>
+
+            <p>
+              Yes. We provide careful recovery and transportation
+              for sports, luxury and low-clearance vehicles.
+            </p>
+
+          </details>
+
+
+          <details>
+
+            <summary>
+              Do you provide flatbed recovery?
+            </summary>
+
+            <p>
+              Yes. Flatbed transport is suitable when the vehicle
+              needs complete transportation instead of being driven.
+            </p>
+
+          </details>
+
+
+          <details>
+
+            <summary>
+              Do you provide roadside assistance in Al Ain?
+            </summary>
+
+            <p>
+              Yes. Contact us for roadside assistance and vehicle
+              recovery around Al Ain and nearby areas.
+            </p>
+
+          </details>
+
+
+          <details>
+
+            <summary>
+              How can I contact Al Ain Recovery?
+            </summary>
+
+            <p>
+              Call 0551525352 or use the WhatsApp button on this
+              website to contact Al Ain Recovery directly.
+            </p>
+
+          </details>
+
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         CTA
+    ========================= -->
+
+    <section class="cta">
+
+      <div class="container cta-grid">
+
+
+        <div>
+
+          <div
+            class="kicker"
+            style="color:#7bd3d0;"
+          >
+            Need Help Now?
+          </div>
+
+          <h2>
+            Stranded with your vehicle?
+          </h2>
+
+          <p>
+            Contact Al Ain Recovery for professional vehicle
+            recovery and roadside assistance in Al Ain, UAE.
+          </p>
+
+        </div>
+
+
+        <div class="buttons">
+
+          <a
+            href="tel:+971551525352"
+            class="btn btn-outline"
+          >
+            ☎ Call 0551525352
+          </a>
+
+
+          <a
+            href="https://wa.me/971551525352"
+            target="_blank"
+            rel="noopener"
+            class="btn btn-whatsapp"
+          >
+            ◉ WhatsApp
+          </a>
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+  </main>
+
+
+  <!-- =========================
+       FOOTER
+  ========================= -->
+
+  <footer>
+
+    <div class="container">
+
+
+      <div class="footer-grid">
+
+
+        <div>
+
+          <a
+            href="#home"
+            class="brand"
+            style="color:white;margin-bottom:18px;"
+          >
+
+            <div class="brand-icon">
+              AR
+            </div>
+
+            <div class="brand-name">
+
+              Al Ain Recovery
+
+              <small
+                class="brand-sub"
+                style="color:#7bd3d0;"
+              >
+                VEHICLE RECOVERY • UAE
+              </small>
+
+            </div>
+
+          </a>
+
+
+          <p>
+            Professional vehicle recovery and roadside assistance
+            in Al Ain, Abu Dhabi, UAE. Available for emergency
+            recovery, flatbed transport and roadside support.
+          </p>
+
+        </div>
+
+
+        <div>
+
+          <h3>
+            Services
+          </h3>
+
+
+          <div class="footer-links">
+
+            <a href="#services">
+              Car Recovery
+            </a>
+
+            <a href="#services">
+              Sports & Luxury Recovery
+            </a>
+
+            <a href="#services">
+              Flatbed Recovery
+            </a>
+
+            <a href="#services">
+              Roadside Assistance
+            </a>
+
+            <a href="#services">
+              Battery Assistance
+            </a>
+
+            <a href="#services">
+              Vehicle Lockout Assistance
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <div>
+
+          <h3>
+            Contact
+          </h3>
+
+
+          <div class="footer-links">
+
+            <a href="#location">
+              📍 Al Ain, Abu Dhabi, UAE
+            </a>
+
+            <a
+              href="tel:+971551525352"
+              class="footer-phone"
+            >
+              ☎ 0551525352
+            </a>
+
+            <a
+              href="https://wa.me/971551525352"
+              target="_blank"
+              rel="noopener"
+              class="footer-phone"
+            >
+              ◉ WhatsApp
+            </a>
+
+            <a href="#areas">
+              Service Areas
+            </a>
+
+            <a href="#faq">
+              FAQ
+            </a>
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+
+      <div class="copyright">
+
+        <span>
+          © 2026 Al Ain Recovery. All rights reserved.
+        </span>
+
+        <span>
+          Al Ain, Abu Dhabi, United Arab Emirates
+        </span>
+
+      </div>
+
 
     </div>
 
+  </footer>
 
-    <div class="copyright">
 
-      <span>
-        © 2026 Al Ain Recovery. All rights reserved.
-      </span>
+  <!-- =========================
+       FLOATING CONTACT
+  ========================= -->
 
-      <span>
-        Al Ain, Abu Dhabi, UAE • 0551525352
-      </span>
+  <div class="floating">
 
-    </div>
+
+    <a
+      href="tel:+971551525352"
+      class="floating-call"
+      aria-label="Call Al Ain Recovery"
+      title="Call 0551525352"
+    >
+      ☎
+    </a>
+
+
+    <a
+      href="https://wa.me/971551525352"
+      target="_blank"
+      rel="noopener"
+      class="floating-whatsapp"
+      aria-label="WhatsApp Al Ain Recovery"
+      title="WhatsApp Al Ain Recovery"
+    >
+      ◉
+    </a>
+
 
   </div>
 
-</footer>
-
-
-<!-- FLOATING CALL / WHATSAPP -->
-
-<div class="floating">
-
-  <a
-    class="floating-call"
-    href="tel:+971551525352"
-    aria-label="Call Al Ain Recovery">
-    ☎
-  </a>
-
-  <a
-    class="floating-whatsapp"
-    href="https://wa.me/971551525352"
-    target="_blank"
-    rel="noopener"
-    aria-label="WhatsApp Al Ain Recovery">
-    ◉
-  </a>
-
-</div>
 
 </body>
 </html>
