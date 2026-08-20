@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="110" fill="#073C52"/>
+  <rect x="55" y="55" width="402" height="402" rx="85" fill="#0B5C78"/>
+  
+  <path d="M105 300h302l-24-55c-8-19-27-32-48-32H177c-21 0-40 13-48 32l-24 55z"
+        fill="#FFFFFF"/>
+  
+  <rect x="125" y="300" width="262" height="62" rx="20" fill="#159A9C"/>
+  
+  <circle cx="160" cy="365" r="38" fill="#073C52"/>
+  <circle cx="352" cy="365" r="38" fill="#073C52"/>
+  
+  <circle cx="160" cy="365" r="17" fill="#FFFFFF"/>
+  <circle cx="352" cy="365" r="17" fill="#FFFFFF"/>
+  
+  <text x="256" y="190"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="82"
+        font-weight="900"
+        fill="#FFFFFF">AR</text>
+</svg>
